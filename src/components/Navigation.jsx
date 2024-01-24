@@ -2,7 +2,7 @@ import brandImage from "../../public/images/brand_logo.png";
 const Navigation = () => {
   return (
     <div>
-      <nav>
+      <nav className="container">
         <div className="logo">
           <img src={brandImage} alt="logo" />
         </div>
